@@ -16,5 +16,11 @@ namespace ExcelTester
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ExcelCreatorClass E = new ExcelCreatorClass();
+            E.CreateSpread();
+        }
     }
 }
